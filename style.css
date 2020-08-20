@@ -1,0 +1,65 @@
+body {
+    background-image: url('background.jpg');
+}
+
+#main {
+    text-align: center;
+}
+
+.todoItems {
+    margin: 0 1% 0 70%;
+}
+
+.taskItems {
+    border: 1px solid black;
+    width: 80%;
+    padding: 2% 0 2% 1%;
+    list-style: none;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+#task {
+    width: 30%;
+    padding: 0.7%;
+}
+
+h1 {
+    text-align: center;
+    margin: 2% 0;
+    color: white;
+    font-size: 3em;
+}
+
+.buttonMain {
+    background-color: black;
+    color: white;
+    padding: 0.7%;
+}
+
+.delAll {
+    background-color: red;
+    color: white;
+}
+
+.delbutton {
+    background-color: red;
+    color: white;
+    margin-left: 80%;
+
+}
+
+.editbutton {
+    background-color: orangered;
+    color: white;
+}
+
+li:nth-child(even) {
+    background-color: rgb(113, 140, 145);
+    color: white;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(153, 117, 147);
+    color: white;
+}
